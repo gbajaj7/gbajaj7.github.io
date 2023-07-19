@@ -18,14 +18,14 @@ const DemoVideoInstructions = (props) => {
               </Text>
               <div className="flex flex-col items-center justify-start">
                 <Text
-                  className="italic text-[19.46px] text-gray-900 w-full"
-                  size="txtPoppinsLightItalic1946"
+                  className="mt-[17px] text-[16.39px] text-gray-900 w-full"
+                  size="txtPoppinsRegular1639"
                 >
                   {props?.descriptiontext}
                 </Text>
                 <Text
-                  className="mt-10 text-[12.29px] text-black-900 w-full"
-                  size="txtPoppinsRegular1229"
+                  className="mt-[17px] text-[16.39px] text-gray-900 w-full"
+                  size="txtPoppinsRegular1639"
                 >
                   {props?.descriptiononetext}
                 </Text>
@@ -69,6 +69,14 @@ const DemoVideoInstructions = (props) => {
                 </Text>
               </div>
             </div>
+            <div className="flex flex-col items-center justify-start">
+              <Text
+                className="mt-[17px] text-[16.39px] text-gray-900 w-full"
+                size="txtPoppinsRegular1639"
+              >
+                {props?.whatsnext}
+              </Text>
+            </div>
           </div>
         </div>
       </div>
@@ -77,28 +85,40 @@ const DemoVideoInstructions = (props) => {
 };
 
 DemoVideoInstructions.defaultProps = {
-  mottotext: "Utoopia: Where you discover the most compatible connections.",
-  descriptiontext:
-    "Our motto is to use science & art that is guided by ancient eastern and western philosophies, combining psychological and mathematical models.",
-  descriptiononetext: (
+  mottotext: "Introducing Utoopia: A new way to seek optimal compatible relationships.",
+  descriptiontext: (
+    <ol style={{ listStyleType: 'decimal', marginTop: 10}}>
+    <li> Compatibility is colorful. It is more than just having same interest, or same liking. </li>
+    <li> Our compatibility calculations are inspired from rich ancient eastern philosophies, combined with mathematical models. </li>
+    <li> Designed by a relationship enthusiast with a multi-cultural experience and a passionate female engineer who is ready to listen to customers and solve their problems.</li>
+  </ol>),
+  descriptiononetext:   (
     <>
-      Designed by a relationship enthusiasts and a customer obsessed engineer
-      who is ready to listen to customers and solve their problems.
+      We are solving the compatibility problem from root and providing a high-quality compatibility score to build nurturing relationships. 
+      We have categorized compatibility across various meaningful dimensions like romantic, emotional, intellectual, and may others. 
+      We value positive customer experience and therefore creating a holistic productive product to solve our customers problems. 
+      We are here to receive your feedback.
       <br />
     </>
-  ),
+  ),  
   descriptiontwotext: (
     <>
-      We solve the compatibility problem from root and provide compatibility
-      score across various dimensions like romantic, emotional, intellectual, or
-      physical.
+      Watch the product video and sign up with the email if interested in onboarding pre-launch. 
       <br />
     </>
   ),
   signuptext: "SIGN UP",
   emailaddresstext: "Email Address",
   pricetext:
-    "Sign up for an alpha launch with 3 month FREE subscription saving you $60.",
+    "Sign up NOW with your email to get 3-month FREE subscription which would otherwise be $60 for 3 months at the time of launch.",
+  whatsnext:   (
+      <>
+        <b>What’s next</b>
+        <br></br>
+        We are officially launching on September 1, 2023. If you have any feedback, email gbajaj7@gmail.com
+        <br />
+      </>
+  ),  
 };
 
 export default DemoVideoInstructions;
