@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Text } from "components";
+import { Button, Input, Text } from "components";
 
 const DemoVideoInstructions = (props) => {
   return (
@@ -39,26 +39,27 @@ const DemoVideoInstructions = (props) => {
             </div>
           </div>
           <div className="flex flex-col gap-[5.91px] items-start justify-start w-auto">
-            <div className="md:h-[19px] h-[39px] relative w-[99%]">
-              <div className="absolute h-[19px] right-[0] top-[0] w-[35%]">
-                <div className="absolute bg-white-A700 h-[19px] inset-y-[0] my-auto right-[5%] w-[82%]"></div>
-                <Text
-                  className="absolute bg-orange-100 h-full inset-[0] justify-center m-auto pt-1 sm:px-5 px-[31px] rounded-md text-[11.82px] text-black-900_01 text-center w-max"
-                  size="txtInterRegular1182"
-                >
-                  {props?.signuptext}
-                </Text>
+            <div className="flex flex-row items-center justify-evenly w-full">
+                <div className="flex sm:flex-1 flex-col items-center justify-start w-[62%] sm:w-full">
+                  <Input
+                    name="input"
+                    placeholder="Email Address"
+                    className="font-poppins md:h-auto p-0 placeholder:text-gray-600 sm:h-auto sm:pr-5 text-base text-gray-600 text-left tracking-[0.20px] w-full"
+                    wrapClassName="bg-white-A700 pl-5 pr-[35px] py-2 rounded-[16px] w-full"
+                    onChange={props?.handleChange}
+                    errors={props?.errors}
+                    value={props?.input}
+                  ></Input>
+                </div>
+                <div className="flex flex-col items-start justify-start p-2.5 w-auto">
+                  <Button
+                    className="common-pointer bg-orange-200 cursor-pointer font-bold font-poppins h-[35px] py-1.5 rounded-[17px] text-base text-black-900_01 text-center tracking-[0.20px] w-[109px]"
+                    onClick={props?.onClick}
+                  >
+                    {props?.signupbutton}
+                  </Button>
+                </div>
               </div>
-              <div className="absolute md:h-[19px] h-[39px] inset-y-[0] left-[0] my-auto pb-[19px] pr-[19px] w-[67%]">
-                <div className="absolute bg-gray-50_02 h-[19px] left-[0] rounded-md top-[0] w-[91%]"></div>
-                <Text
-                  className="absolute left-[2%] text-[13.8px] text-gray-500 top-[8%]"
-                  size="txtInterRegular138"
-                >
-                  {props?.emailaddresstext}
-                </Text>
-              </div>
-            </div>
             <div className="flex flex-col items-center justify-start w-full">
               <div className="bg-gray-300_cc flex flex-col items-center justify-start rounded-[7px] w-full">
                 <Text
@@ -107,8 +108,7 @@ DemoVideoInstructions.defaultProps = {
       <br />
     </>
   ),
-  signuptext: "SIGN UP",
-  emailaddresstext: "Email Address",
+  signupbutton: "Sign up",
   pricetext:
     "Sign up NOW with your email to get 3-month FREE subscription which would otherwise be $60 for 3 months at the time of launch.",
   whatsnext:   (
