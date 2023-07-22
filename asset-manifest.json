@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.ff707a03.css",
-    "main.js": "/static/js/main.bb272762.js",
-    "static/js/695.f3e89c53.chunk.js": "/static/js/695.f3e89c53.chunk.js",
+    "main.js": "/static/js/main.8c8a3879.js",
+    "static/js/695.ea8642f9.chunk.js": "/static/js/695.ea8642f9.chunk.js",
     "static/css/23.4d6a6648.chunk.css": "/static/css/23.4d6a6648.chunk.css",
     "static/js/23.be8d0452.chunk.js": "/static/js/23.be8d0452.chunk.js",
-    "static/media/Utoopia_Demo1.mov": "/static/media/Utoopia_Demo1.4766e0813221a32386e1.mov",
+    "static/media/Utoopia_Demo1.mov": "/static/media/Utoopia_Demo1.f27c81342a4f087c40b7.mov",
     "static/media/InterMedium.ttf": "/static/media/InterMedium.6dcbc9bed1ec438907ee.ttf",
     "static/media/InterRegular.ttf": "/static/media/InterRegular.e89cb19905e7db5591b0.ttf",
     "static/media/PoppinsLightItalic.ttf": "/static/media/PoppinsLightItalic.4a7d59f898225cc2f2e7.ttf",
@@ -13,13 +13,13 @@
     "static/media/PoppinsMedium.ttf": "/static/media/PoppinsMedium.673ed42382ab264e0bf5.ttf",
     "index.html": "/index.html",
     "main.ff707a03.css.map": "/static/css/main.ff707a03.css.map",
-    "main.bb272762.js.map": "/static/js/main.bb272762.js.map",
-    "695.f3e89c53.chunk.js.map": "/static/js/695.f3e89c53.chunk.js.map",
+    "main.8c8a3879.js.map": "/static/js/main.8c8a3879.js.map",
+    "695.ea8642f9.chunk.js.map": "/static/js/695.ea8642f9.chunk.js.map",
     "23.4d6a6648.chunk.css.map": "/static/css/23.4d6a6648.chunk.css.map",
     "23.be8d0452.chunk.js.map": "/static/js/23.be8d0452.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff707a03.css",
-    "static/js/main.bb272762.js"
+    "static/js/main.8c8a3879.js"
   ]
 }
