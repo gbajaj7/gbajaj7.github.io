@@ -60,16 +60,6 @@ const DemoVideoInstructions = (props) => {
                   </Button>
                 </div>
               </div>
-            <div className="flex flex-col items-center justify-start w-full">
-              <div className="bg-gray-300_cc flex flex-col items-center justify-start rounded-[7px] w-full">
-                <Text
-                  className="leading-[23.00px] mb-[18px] mt-1.5 text-[15.77px] text-indigo-500 w-[98%] sm:w-full"
-                  size="txtInterMedium1577"
-                >
-                  {props?.pricetext}
-                </Text>
-              </div>
-            </div>
             <div className="flex flex-col items-center justify-start">
               <Text
                 className="mt-[17px] text-[16.39px] text-gray-900 w-full"
@@ -86,39 +76,54 @@ const DemoVideoInstructions = (props) => {
 };
 
 DemoVideoInstructions.defaultProps = {
-  mottotext: "Introducing Utoopia: A new way to seek optimal compatible relationships.",
+  mottotext: "🌟 Introducing Utoopia: A new way to seek optimal compatible relationships.🌟",
   descriptiontext: (
-    <ol style={{ listStyleType: 'decimal', marginTop: 10}}>
-    <li> Compatibility is colorful. It is more than just having same interest, or same liking. </li>
-    <li> Our compatibility calculations are inspired from rich ancient eastern philosophies, combined with mathematical models. </li>
-    <li> Designed by a relationship enthusiast with a multi-cultural experience and a passionate female engineer who is ready to listen to customers and solve their problems.</li>
-  </ol>),
+    <><span>
+      Are you tired of the usual dating apps that claim to find your perfect match based on superficial interests or Q&As? 
+      At Utoopia, we believe that human compatibility is much broader and precise than just shared hobbies or similar likes. 
+      Our mission is to revolutionize the way people seek meaningful and lasting relationships by introducing a fresh approach 
+      inspired by rich ancient eastern philosophies and advanced mathematical models. We believe that compatibility is a vibrant 
+      tapestry of different colors, influenced by diverse experiences and philosophies.
+      <br />
+      <br />
+      <b>What sets us apart?</b>
+    </span><ol style={{ listStyleType: 'decimal', marginTop: 10 }}>
+        <li> 🌺 <b><i>Solving Compatibility from the Root:</i></b>  <br />
+          Our unique compatibility calculations delve into the essence of what makes relationships thrive. 
+          By blending ancient wisdom with modern science, we've created a comprehensive system that considers multiple dimensions, 
+          including romantic, emotional, intellectual, and many others. 
+          </li><br />
+        <li> 🌈 <b><i>A Rainbow of Diversity: </i></b>  <br />
+          Utoopia celebrates diversity and recognizes that every individual has their own unique preferences and needs. 
+          </li><br />
+        <li> 🛠 <b><i>Crafted with Care: </i></b>  <br />
+          Utoopia is born out of the collaboration between a relationship enthusiast and a passionate female engineer of color. Its soo close to our heart. 
+          We want to listen to our customers and are committed to solving the compatibility puzzle from its roots. 
+          </li><br />
+        <li> 🏆 <b><i>High-Quality Compatibility Score: </i></b>  <br />
+          Utoopia provides you with a precise and reliable compatibility score that empowers you to build nurturing relationships from the start. 
+          </li><br />
+        <li> 💖 <b><i>A Holistic Approach: </i></b>  <br />
+          We are at the core of positive productive customer experience and thus dedicated to building holistic and productive product that addresses all your relationship needs every step of the way. 
+         </li>
+      </ol></>),
   descriptiononetext:   (
     <>
-      We are solving the compatibility problem from root and providing a high-quality compatibility score to build nurturing relationships. 
-      We have categorized compatibility across various meaningful dimensions like romantic, emotional, intellectual, and may others. 
-      We value positive customer experience and therefore creating a holistic productive product to solve our customers problems. 
-      We are here to receive your feedback.
+      📢 Join the Utoopia Community: Get ready to discover a world of colorful compatibility, 
+      where meaningful connections thrive. Utoopia is coming soon, and we can't wait to embark on this journey with you. 
+      Let's redefine relationships together! Watch our product video to get a glimpse of what Utoopia has to offer and sign up for pre-launch. 
+      And please share your feedback with us at gbajaj7@gmail.com.
       <br />
     </>
   ),  
-  descriptiontwotext: (
+  signupbutton: "Sign up",
+  whatsnext: (
     <>
-      Watch the product video and sign up with the email if interested in onboarding pre-launch. 
+      If you're eager to be part of our pre-launch journey and discover love in a whole new way, sign up with your email to receive updates, early access, subscription discounts and many more surprises. 
+      We are here to revolutionize the way you seek and experience relationships. Let's embark on this exciting adventure together! 🚀 
       <br />
     </>
   ),
-  signupbutton: "Sign up",
-  pricetext:
-    "Sign up NOW with your email to get 3-month FREE subscription which would otherwise be $60 for 3 months at the time of launch.",
-  whatsnext:   (
-      <>
-        <b>What’s next</b>
-        <br></br>
-        We are officially launching on September 1, 2023. If you have any feedback, email gbajaj7@gmail.com
-        <br />
-      </>
-  ),  
 };
 
 export default DemoVideoInstructions;
