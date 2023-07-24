@@ -43,7 +43,7 @@ const DemoVideoInstructions = (props) => {
                 <div className="flex sm:flex-1 flex-col items-center justify-start w-[62%] sm:w-full">
                   <Input
                     name="input"
-                    placeholder="Email Address"
+                    placeholder="Email"
                     className="font-poppins md:h-auto p-0 placeholder:text-gray-600 sm:h-auto sm:pr-5 text-base text-gray-600 text-left tracking-[0.20px] w-full"
                     wrapClassName="bg-white-A700 pl-5 pr-[35px] py-2 rounded-[16px] w-full"
                     onChange={props?.handleChange}
