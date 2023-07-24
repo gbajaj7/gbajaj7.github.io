@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.fad2f827.css",
-    "main.js": "/static/js/main.53e3da59.js",
-    "static/js/695.28b0e849.chunk.js": "/static/js/695.28b0e849.chunk.js",
+    "main.js": "/static/js/main.dfe85b34.js",
+    "static/js/695.32b48d72.chunk.js": "/static/js/695.32b48d72.chunk.js",
     "static/css/23.4d6a6648.chunk.css": "/static/css/23.4d6a6648.chunk.css",
     "static/js/23.be8d0452.chunk.js": "/static/js/23.be8d0452.chunk.js",
     "static/media/Utoopia_Demo1.mov": "/static/media/Utoopia_Demo1.f27c81342a4f087c40b7.mov",
@@ -13,13 +13,13 @@
     "static/media/PoppinsMedium.ttf": "/static/media/PoppinsMedium.673ed42382ab264e0bf5.ttf",
     "index.html": "/index.html",
     "main.fad2f827.css.map": "/static/css/main.fad2f827.css.map",
-    "main.53e3da59.js.map": "/static/js/main.53e3da59.js.map",
-    "695.28b0e849.chunk.js.map": "/static/js/695.28b0e849.chunk.js.map",
+    "main.dfe85b34.js.map": "/static/js/main.dfe85b34.js.map",
+    "695.32b48d72.chunk.js.map": "/static/js/695.32b48d72.chunk.js.map",
     "23.4d6a6648.chunk.css.map": "/static/css/23.4d6a6648.chunk.css.map",
     "23.be8d0452.chunk.js.map": "/static/js/23.be8d0452.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fad2f827.css",
-    "static/js/main.53e3da59.js"
+    "static/js/main.dfe85b34.js"
   ]
 }
