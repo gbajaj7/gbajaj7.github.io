@@ -98,7 +98,7 @@ const DemoVideoPage = () => {
           
           onClick={() => form.handleSubmit(signup)}
         />
-        <video src={require("assets/video/Utoopia_Demo1.mov")} controls="controls" playsinline>
+        <video src={require("assets/video/Utoopia_Demo1.mov")} controls="controls" playsinline webkit-playsinline>
         </video>
         {/* <DemoVideoVideoplayer03 className="flex flex-col gap-[6.64px] items-start justify-start rounded-[7px] w-[413px] sm:w-full" /> */}
       </div>
