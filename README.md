@@ -1,8 +1,7 @@
 ## Description
 
-- This React application is built using [create-react-app](https://create-react-app.dev/).
-- It uses [Tailwind CSS](https://tailwindcss.com/)
-- The application is generated in JavaScript.
+- A new way to seek optimal compatible relationships. Compatibility is colorful. It is more than just having same interest, or same liking. Designed by a relationship enthusiast with a multi-cultural experience and a passionate female engineer who is ready to listen to customers and solve their problems. Our unique compatibility calculations delve into the essence of what makes relationships thrive. By blending ancient wisdom with modern science, we've created a comprehensive system that considers multiple dimensions, including romantic, emotional, intellectual, and many others. Experience the true potential of a relationship that enriches your life on multiple levels.
+- 
 
 ## Pre-requisites
 
