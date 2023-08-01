@@ -80,7 +80,7 @@ DemoVideoInstructions.defaultProps = {
   mottotext: "🌟 Introducing Utoopia: A new and smart way to 'Date' based on compatibility🌟",
   descriptiontext: (
     <><span><ul style={{ listStyleType: 'disc', marginTop: 10 }}>
-      <li>Are you looking for serious relationships?</li>
+      <li>Do you want to date smartly?</li>
       <li>Do you care about deep connections and high quality compatibility?</li>
       <li>Do you feel your dating app feedbacks is not getting heard?</li>
       <li>Do you admire various relationship philosophies in the world?</li>
