@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button, Input, Text } from "components";
+import { Img } from "components";
 
 const DemoVideoInstructions = (props) => {
   return (
@@ -76,32 +77,34 @@ const DemoVideoInstructions = (props) => {
 };
 
 DemoVideoInstructions.defaultProps = {
-  mottotext: "🌟 Introducing Utoopia: A new way to seek optimal compatible relationships.🌟",
+  mottotext: "🌟 Introducing Utoopia: A new and smart way to 'Date' based on compatibility🌟",
   descriptiontext: (
-    <><span>
-      Are you tired of the usual dating apps that claim to find your perfect match based on superficial interests or Q&As? 
-      At Utoopia, we believe that human compatibility is much broader and precise than just shared hobbies or similar likes. 
-      Our mission is to revolutionize the way people seek meaningful and lasting relationships by introducing a fresh approach 
-      inspired by rich ancient eastern philosophies and advanced mathematical models. We believe that compatibility is a vibrant 
-      tapestry of different colors, influenced by diverse experiences and philosophies.
+    <><span><ul style={{ listStyleType: 'disc', marginTop: 10 }}>
+      <li>Are you looking for serious relationships?</li>
+      <li>Do you care about deep connections and high quality compatibility?</li>
+      <li>Do you feel your dating app feedbacks is not getting heard?</li>
+      <li>Do you admire various relationship philosophies in the world?</li>
+      <li>Do you like thoughful logical algorithm over brute force attemps?</li>
+      <li>Do you support BIPOC, Women entrepreneur, Women who code?</li>
       <br />
-      <br />
-      <b>What sets us apart?</b>
+      </ul>
+      <b>That's what sets us apart</b>
     </span><ol style={{ listStyleType: 'decimal', marginTop: 10 }}>
-        <li> 🌺 <b><i>Solving Compatibility from the Root:</i></b>  <br />
-          Our unique compatibility calculations delve into the essence of what makes relationships thrive. 
-          By blending ancient wisdom with modern science, we've created a comprehensive system that considers multiple dimensions, 
-          including romantic, emotional, intellectual, and many others. 
-          </li><br />
-        <li> 🌈 <b><i>A Rainbow of Diversity: </i></b>  <br />
+        <li> 🌈 <b><i>Solving Compatibility from the Root because Compatibility is colorful:</i></b>  <br />
+          Our unique calculation delve into the essence of what makes relationships thrive. 
           Utoopia celebrates diversity and recognizes that every individual has their own unique preferences and needs. 
           </li><br />
         <li> 🛠 <b><i>Crafted with Care: </i></b>  <br />
-          Utoopia is born out of the collaboration between a relationship enthusiast and a passionate female engineer of color. Its soo close to our heart. 
-          We want to listen to our customers and are committed to solving the compatibility puzzle from its roots. 
+          Designed by a relationship enthusiast with a multi-cultural experience and a passionate female engineer who is ready to listen to customers and solve their problems. 
           </li><br />
         <li> 🏆 <b><i>High-Quality Compatibility Score: </i></b>  <br />
-          Utoopia provides you with a precise and reliable compatibility score that empowers you to build nurturing relationships from the start. 
+          By blending ancient wisdom with modern science, we've created a comprehensive system that considers multiple dimensions, 
+          including romantic, emotional, intellectual, and many others. 
+          <Img
+                className="h-[397px] sm:h-auto object-cover w-[396px] md:w-full"
+                src="images/compatibilityScore.png"
+                alt="demo"
+            />
           </li><br />
         <li> 💖 <b><i>A Holistic Approach: </i></b>  <br />
           We are at the core of positive productive customer experience and thus dedicated to building holistic and productive product that addresses all your relationship needs every step of the way. 
@@ -109,10 +112,8 @@ DemoVideoInstructions.defaultProps = {
       </ol></>),
   descriptiononetext:   (
     <>
-      📢 Join the Utoopia Community: Get ready to discover a world of colorful compatibility, 
-      where meaningful connections thrive. Utoopia is coming soon, and we can't wait to embark on this journey with you. 
+      📢 Join the Utoopia Community: Utoopia is coming soon, and we can't wait to embark on this journey with you. 
       Let's redefine relationships together! Watch our product video to get a glimpse of what Utoopia has to offer and sign up for pre-launch. 
-      And please share your feedback with us at gbajaj7@gmail.com.
       <br />
     </>
   ),  
