@@ -77,18 +77,21 @@ const DemoVideoInstructions = (props) => {
 };
 
 DemoVideoInstructions.defaultProps = {
-  mottotext: "🌟 Introducing Utoopia: A new and smart way to 'Date' based on compatibility🌟",
+  mottotext: "🌟 Introducing Utoopia: A new way of Dating based on compatibility with a touch of south east asia🌟",
   descriptiontext: (
     <><span><ul style={{ listStyleType: 'disc', marginTop: 10 }}>
-      <li>Do you want to date smartly?</li>
-      <li>Do you care about deep connections and high quality compatibility?</li>
-      <li>Do you feel your dating app feedbacks is not getting heard?</li>
-      <li>Do you admire various relationship philosophies in the world?</li>
-      <li>Do you like thoughful logical algorithm over brute force attemps?</li>
-      <li>Do you support BIPOC, Women entrepreneur, Women who code?</li>
+      <b>“The Greatest human desire is to be desired”. </b><br />
+        We all want to feel connected and have fulfilling relationships and positive dating experience.
+        However, <b>Are you tired of aimlessly swipping in today’s online dating apps?</b> 40% of users are saying compatibility is missing
+        in current dating apps and the problem is widespread. At Utoopia, we believe that human compatibility
+        is Colorful🌈. Its more than just shared hobbies, likes. We are introducing a fresh approach inspired 
+        by rich ancient eastern philosophies and advanced mathematical models. 
+        Created by a BIPOC, Women entrepreneur who code.
+        <br />
+        <br />
       <br />
       </ul>
-      <b>That's what sets us apart</b>
+      <b>What sets us apart</b>
     </span><ol style={{ listStyleType: 'decimal', marginTop: 10 }}>
         <li> 🌈 <b><i>Solving Compatibility from the Root because Compatibility is colorful:</i></b>  <br />
           Our unique calculation delve into the essence of what makes relationships thrive. 
