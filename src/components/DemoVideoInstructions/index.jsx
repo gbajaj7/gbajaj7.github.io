@@ -17,6 +17,27 @@ const DemoVideoInstructions = (props) => {
               >
                 {props?.mottotext}
               </Text>
+              <div className="flex flex-row items-center justify-evenly w-full">
+                <div className="flex sm:flex-1 flex-col items-center justify-start w-[62%] sm:w-full">
+                  <Input
+                    name="input"
+                    placeholder="Email"
+                    className="font-poppins md:h-auto p-0 placeholder:text-gray-600 sm:h-auto sm:pr-5 text-base text-gray-600 text-left tracking-[0.20px] w-full"
+                    wrapClassName="bg-white-A700 pl-5 pr-[35px] py-2 rounded-[16px] w-full"
+                    onChange={props?.handleChange}
+                    errors={props?.errors}
+                    value={props?.input}
+                  ></Input>
+                </div>
+                <div className="flex flex-col items-start justify-start p-2.5 w-auto">
+                  <Button
+                    className="common-pointer bg-orange-200 cursor-pointer font-bold font-poppins h-[35px] py-1.5 rounded-[17px] text-base text-black-900_01 text-center tracking-[0.20px] w-[109px]"
+                    onClick={props?.onClick}
+                  >
+                    {props?.signupbutton}
+                  </Button>
+                </div>
+              </div>
               <div className="flex flex-col items-center justify-start">
                 <Text
                   className="mt-[17px] text-[16.39px] text-gray-900 w-full"
@@ -39,8 +60,7 @@ const DemoVideoInstructions = (props) => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-[5.91px] items-start justify-start w-auto">
-            <div className="flex flex-row items-center justify-evenly w-full">
+          <div className="flex flex-row items-center justify-evenly w-full">
                 <div className="flex sm:flex-1 flex-col items-center justify-start w-[62%] sm:w-full">
                   <Input
                     name="input"
@@ -61,6 +81,7 @@ const DemoVideoInstructions = (props) => {
                   </Button>
                 </div>
               </div>
+          <div className="flex flex-col gap-[5.91px] items-start justify-start w-auto">
             <div className="flex flex-col items-center justify-start">
               <Text
                 className="mt-[17px] text-[16.39px] text-gray-900 w-full"
@@ -77,28 +98,32 @@ const DemoVideoInstructions = (props) => {
 };
 
 DemoVideoInstructions.defaultProps = {
-  mottotext: "🌟 Introducing Utoopia: A new way of Dating based on compatibility with a touch of south east asia🌟",
+  mottotext: "Utoopia: A Dating app where you find love based on compatibility",
+  signupbutton: "Sign up",
   descriptiontext: (
-    <><span><ul style={{ listStyleType: 'disc', marginTop: 10 }}>
-      <b>“The Greatest human desire is to be desired”. </b><br />
-        We all want to feel connected and have fulfilling relationships and positive dating experience.
-        However, <b>Are you tired of aimlessly swipping in today’s online dating apps?</b> 40% of users are saying compatibility is missing
-        in current dating apps and the problem is widespread. At Utoopia, we believe that human compatibility
-        is Colorful🌈. Its more than just shared hobbies, likes. We are introducing a fresh approach inspired 
-        by rich ancient eastern philosophies and advanced mathematical models. 
-        Created by a BIPOC, Women entrepreneur who code.
+    <>Sign up NOW to get free subscriton, only till Aug 15.
+    <br></br>
+    <br></br>
+    <span><ul style={{ listStyleType: 'disc', marginTop: 10 }}>
+      <b> Are you tired of swiping on apps looking for perfect match? </b><br />
+        40% of users are saying the same. <br /><br />
+        At Utoopia, we believe that human compatibility is Colorful🌈, much more than just shared hobbies and likes. 
+        <br></br><br></br>
+        Created in Seattle by a Southeast asian woman software engineer.
+        <br></br>
+        <i>#BIPOC #womenwhocode #mindfuldating #inclusive #changemakers</i>
         <br />
         <br />
       <br />
       </ul>
       <b>What sets us apart</b>
     </span><ol style={{ listStyleType: 'decimal', marginTop: 10 }}>
-        <li> 🌈 <b><i>Solving Compatibility from the Root because Compatibility is colorful:</i></b>  <br />
-          Our unique calculation delve into the essence of what makes relationships thrive. 
+        <li> 🌈 <b><i>Finding compatibility from the Root because Compatibility is colorful:</i></b>  <br />
+          Our unique calculations delve into the essence of what makes relationships thrive. 
           Utoopia celebrates diversity and recognizes that every individual has their own unique preferences and needs. 
           </li><br />
         <li> 🛠 <b><i>Crafted with Care: </i></b>  <br />
-          Designed by a relationship enthusiast with a multi-cultural experience and a passionate female engineer who is ready to listen to customers and solve their problems. 
+          Designed by a relationship enthusiast, with a multi-cultural experience who is ready to listen to customers and solve their problems. 
           </li><br />
         <li> 🏆 <b><i>High-Quality Compatibility Score: </i></b>  <br />
           By blending ancient wisdom with modern science, we've created a comprehensive system that considers multiple dimensions, 
@@ -110,7 +135,8 @@ DemoVideoInstructions.defaultProps = {
             />
           </li><br />
         <li> 💖 <b><i>A Holistic Approach: </i></b>  <br />
-          We are at the core of positive productive customer experience and thus dedicated to building holistic and productive product that addresses all your relationship needs every step of the way. 
+          We care about positive customer experience and thus dedicated to build a holistic and effective product, that addresses all your relationship needs, every step of the way.
+          Utoopia celebrates inclusivity in ethinicity, gender identity, sexual orientation, and relationship types. 
          </li>
       </ol></>),
   descriptiononetext:   (
@@ -121,13 +147,5 @@ DemoVideoInstructions.defaultProps = {
     </>
   ),  
   signupbutton: "Sign up",
-  whatsnext: (
-    <>
-      If you're eager to be part of our pre-launch journey and discover love in a whole new way, sign up with your email to receive updates, early access, subscription discounts and many more surprises. 
-      We are here to revolutionize the way you seek and experience relationships. Let's embark on this exciting adventure together! 🚀 
-      <br />
-    </>
-  ),
 };
-
 export default DemoVideoInstructions;
