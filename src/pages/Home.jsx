@@ -11,7 +11,13 @@ const Home = () => {
       </p>
       <ul>
         <li>
-          <Link to="/">DemoVideo</Link>
+          <Link to="/">AboutUs</Link>
+        </li>
+        <li>
+          <Link to="/contactpage">ContactPage</Link>
+        </li>
+        <li>
+          <Link to="/privacypolicy">PrivacyPolicy</Link>
         </li>
       </ul>
     </div>

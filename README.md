@@ -1,7 +1,6 @@
 ## Description
 
 - A new way to seek optimal compatible relationships. Compatibility is colorful. It is more than just having same interest, or same liking. Designed by a relationship enthusiast with a multi-cultural experience and a passionate female engineer who is ready to listen to customers and solve their problems. Our unique compatibility calculations delve into the essence of what makes relationships thrive. By blending ancient wisdom with modern science, we've created a comprehensive system that considers multiple dimensions, including romantic, emotional, intellectual, and many others. Experience the true potential of a relationship that enriches your life on multiple levels.
-- 
 
 ## Pre-requisites
 
@@ -12,12 +11,29 @@
 ## Running in dev environment
 
 1.  `cd YOUR_APPLICATION`
+2. `yarn`
+3. `yarn start`
+- probably don't need other stuff
+
 2.  `npm install`
 3.  `npm start`
+4. `yarn run deploy` for gh pages
 
 ## .env file
 
 This file contains various environment variables that you can configure.
+
+# Running the storybook
+
+We have detected common components and have generated possible variants of it.To check the documentation of generated common components by integrating storybook, Please follow below steps.
+
+## Install and Initializes
+
+      npx storybook init
+
+## Run the Storybook
+
+      npm run storybook
 
 ## Folder Structure
 
@@ -97,7 +113,7 @@ yarn add react-router
 
 ## License
 
-This code should not be copied or edited irrespective of the below statements.
+This code should NOT BE copied or edited irrespective of the below statements.
 
 _[Copyright (c) 2023 DhiWise
 
